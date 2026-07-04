@@ -1,4 +1,4 @@
-# notion-repo-pull
+# notion-skills
 
 
 <p align="center">
@@ -13,9 +13,9 @@
 
 
 <p align="center">
-  <a href="https://github.com/aytoast/notion-repo-pull/stargazers"><img src="https://img.shields.io/github/stars/aytoast/notion-repo-pull?style=flat&color=yellow" alt="Stars"></a>
-  <a href="https://github.com/aytoast/notion-repo-pull/commits/master"><img src="https://img.shields.io/github/last-commit/aytoast/notion-repo-pull?style=flat" alt="Last commit"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/aytoast/notion-repo-pull?style=flat" alt="License"></a>
+  <a href="https://github.com/aytoast/notion-skills/stargazers"><img src="https://img.shields.io/github/stars/aytoast/notion-skills?style=flat&color=yellow" alt="Stars"></a>
+  <a href="https://github.com/aytoast/notion-skills/commits/master"><img src="https://img.shields.io/github/last-commit/aytoast/notion-skills?style=flat" alt="Last commit"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/aytoast/notion-skills?style=flat" alt="License"></a>
 </p>
 
 
@@ -31,7 +31,7 @@
 ---
 
 
-`notion-repo-pull` is a modular Notion plugin and skill directory for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), Codex, Gemini, Cursor, and other agentic environments. It synchronizes remote Notion pages and databases into local Markdown files, allowing your IDE to index them for zero-latency, context-rich agent interactions.
+`notion-skills` is a modular Notion plugin and skill directory for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), Codex, Gemini, Cursor, and other agentic environments. It synchronizes remote Notion pages and databases into local Markdown files, allowing your IDE to index them for zero-latency, context-rich agent interactions.
 
 
 ---
@@ -110,7 +110,7 @@
 1. Clone this repository into your workspace or agent plugin directory:
 
    ```bash
-   git clone https://github.com/aytoast/notion-repo-pull.git
+   git clone https://github.com/aytoast/notion-skills.git
    ```
 
 2. Define your integration token in a `.env` file at the root of your workspace:
