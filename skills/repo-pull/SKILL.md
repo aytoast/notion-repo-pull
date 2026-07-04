@@ -15,10 +15,11 @@ description: sync notion pages and databases to markdown files recursively
 8. for any nested child pages or inline databases encountered, recursively execute steps 2-8, creating subdirectories to mirror the remote tree structure.
 9. represent inline child databases and subpages as relative markdown links in the parent file body.
 10. continue recursion until the entire tree is initialized and bidirectionally synchronized.
+11. when fetching a page's blocks, you MUST check for `has_children: true` on structural blocks (like `column_list` and `column`). traverse these blocks recursively to ensure no nested text or `child_database` links are omitted from the final `page.md`.
 
 ## automation
 for bulk synchronization, you can run the sync script:
 ```powershell
-python skills/repo-pull/scripts/pull-notion.py
+python skills/repo-pull/scripts/repo-pull.py
 ```
 the script must be run from the root of the workspace (where the `notion` directory is located) and requires `.env` with the `NOTION` token.

@@ -138,7 +138,7 @@ The plugin separates high-level synchronization logic from low-level API command
 
 ```text
                +-----------------------------------+
-               |  Repository Sync Workflow Script  |  <-- e.g., pull-notion.py
+               |  Repository Sync Workflow Script  |  <-- e.g., repo-pull.py
                +-----------------+-----------------+
                                  |
                                  v
@@ -191,5 +191,5 @@ Each integration tool directory contains:
 To execute the synchronization, run the sync script from your workspace root:
 
 ```bash
-python skills/repo-pull/scripts/pull-notion.py
+python skills/repo-pull/scripts/repo-pull.py
 ```
