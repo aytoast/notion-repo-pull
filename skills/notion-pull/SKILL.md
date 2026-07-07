@@ -1,8 +1,8 @@
 ---
-name: repo-pull
+name: notion-pull
 description: sync notion pages and databases to markdown files recursively
 ---
-# repo pull
+# notion pull
 
 ## workflow
 1. accept a Notion page id, database id, or URL from the user as the synchronization root.
@@ -20,6 +20,6 @@ description: sync notion pages and databases to markdown files recursively
 ## automation
 for bulk synchronization, you can run the sync script:
 ```powershell
-python skills/repo-pull/scripts/repo-pull.py
+python skills/notion-pull/scripts/notion-pull.py
 ```
 the script must be run from the root of the workspace (where the `notion` directory is located) and requires `.env` with the `NOTION` token.
